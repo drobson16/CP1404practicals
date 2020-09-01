@@ -30,9 +30,13 @@ for i, number in enumerate(numbers):
 
 # TODO: Use string formatting to produce the output:
 # 1922 Gibson L-5 CES for about $16,035!
+print("My {} would cost ${:,.0f}".format(name, cost))
 
 # TODO: Using a for loop with the range function and string formatting,
 # produce the following right-aligned output (do not use a list):
+r_numbers = [0, 50, 100, 150]
+for number in r_numbers:
+    print("{:>3}".format(number))
 #   0
 #  50
 # 100

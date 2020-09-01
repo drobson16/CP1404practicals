@@ -35,8 +35,13 @@ def is_valid_password(password):
     count_upper = 0
     count_digit = 0
     count_special = 0
+
+    if (len(password) <= 2):
+        return
+
     for char in password:
         # TODO: count each kind of character (use str methods like isdigit)
+
         pass
 
     # TODO: if any of the 'normal' counts are zero, return False

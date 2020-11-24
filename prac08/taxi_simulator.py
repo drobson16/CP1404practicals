@@ -5,7 +5,7 @@ from prac08.car import Car
 from prac08.taxi import Taxi
 from prac08.silver_service_taxi import SilverServiceTaxi
 
-MENU = "q)uit, c)hoose taxi, d)rive"
+MENU = "c)hoose taxi, d)rive, q)uit"
 
 
 def main():
